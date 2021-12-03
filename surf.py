@@ -1,20 +1,20 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[ ]:
 
 
 import requests
 from bs4 import BeautifulSoup
 
 
-# In[3]:
+# In[ ]:
 
 
 lista_praia = ['torrefacao', 'espanhol', 'paciencia', 'farol-da-barra', 'barravento', 'tonys', 'praia-da-onda', 'pescador', 'secret-2', 'stella', 'aleluia',]
 
 
-# In[45]:
+# In[ ]:
 
 
 for praia in lista_praia:
