@@ -1,20 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import requests
 from bs4 import BeautifulSoup
 
 
-# In[ ]:
-
 
 lista_praia = ['torrefacao', 'espanhol', 'paciencia', 'farol-da-barra', 'barravento', 'tonys', 'praia-da-onda', 'pescador', 'secret-2', 'stella', 'aleluia',]
 
-
-# In[ ]:
 
 
 for praia in lista_praia:
@@ -33,24 +23,4 @@ for praia in lista_praia:
         print(f'Tamanho da onda: {onda_tamanho.text.strip()}')
     else:
         print(f'Tamanho da onda: {onda_tamanho.text.strip()[:4]}m')
-    
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+       
